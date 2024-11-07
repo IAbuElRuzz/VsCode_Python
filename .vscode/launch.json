@@ -1,0 +1,18 @@
+{
+
+    "version": "0.2.0",
+    "configurations": [ 
+        
+
+        {
+            "name": "Testing Main.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "main.py",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "args": ["--dev", "local"], // Pass arguments to the program
+  
+        }
+    ]
+}
